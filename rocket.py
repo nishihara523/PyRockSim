@@ -48,7 +48,7 @@ rocket_settings = {
     'IYYdot': 0,  # [kg*m^2/s] 慣性能率変化率 Y軸
     'IZZdot': 0,  # [kg*m^2/s] 慣性能率変化率 Z軸
     'roll': 0,  # [deg] 初期ロール
-    'pitch': 85.0,  # [deg] 初期ピッチ角
+    'pitch': 60.0,  # [deg] 初期ピッチ角
     'yaw': 120.0,  # [deg] 初期方位角
     'lat0': 31.251008,  # [deg] 発射地点緯度(WGS84)
     'lon0': 131.082301,  # [deg] 発射地点経度(WGS84)
