@@ -1,6 +1,9 @@
 """
 Rocket simulator
 
+add nishihara_test
+
+
 Copyright (c) 2016 Kenji Nakakuki
 Released under the MIT license
 """
