@@ -13,7 +13,10 @@ from numpy import sin, cos, arcsin, pi
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import scipy as sp
+#from scipy import integrate
+from scipy.integrate import odeint
 from scipy.interpolate import interp1d
+
 from mpl_toolkits.basemap import Basemap
 import quaternion as qt
 import environment as env
