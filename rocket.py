@@ -413,7 +413,7 @@ if __name__ == "__main__":
     # 計算に使う時間ベクトル
     tvec = np.arange(0, 100, 0.002)
     # ロケットシミュレーション（積分計算）実行
-    result, deb = rs.odeint_calc(tvec)  # odeintを使って積分（高速化）
-    # result = rs.euler_calc(tvec)  # オイラー法積分の場合
+    #result, deb = rs.odeint_calc(tvec)  # odeintを使って積分（高速化）
+    result = rs.euler_calc(tvec)  # オイラー法積分の場合
     # 結果のプロット
     plot_rs(tvec, result)
